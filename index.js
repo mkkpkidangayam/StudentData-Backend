@@ -13,7 +13,7 @@ const app = express();
 app.use(bodyparser.json());
 app.use(
   cors({
-    origin: "https://student-data-frontent.vercel.app/",
+    origin: "https://student-data-frontent.vercel.app",
     credentials: true,
   })
 );
